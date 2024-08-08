@@ -1,0 +1,14 @@
+export type User = {
+  id: string;
+  uid: string;
+  password: string;
+  first_name: string;
+  last_name: string;
+  username: string;
+  email: string;
+  avatar: string;
+};
+
+export type NavigationType = {
+  navigation: any;
+};
